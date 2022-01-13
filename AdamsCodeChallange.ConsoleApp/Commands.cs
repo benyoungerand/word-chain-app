@@ -52,12 +52,12 @@ namespace AdamsCodeChallange.ConsoleApp
         {
             Console.WriteLine("Please enter the first word to compare:");
             Console.WriteLine("------");
-            word1 = Console.ReadLine().ToLower();
+            word1 = Console.ReadLine().Trim().ToLower();
             Console.WriteLine();
             Console.WriteLine($"Please enter the second word to compare (must be of length: {word1.Length})");
             Console.WriteLine("-----");
             Console.WriteLine();
-            word2 = Console.ReadLine().ToLower();
+            word2 = Console.ReadLine().Trim().ToLower();
             Console.WriteLine();
         }
 
